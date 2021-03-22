@@ -1,17 +1,18 @@
 <resources>
     <string name="app_name">HoeckProjekt_Interface</string>
-    <string name="resultatopg_relse">Resultatopgørelse</string>
-    <string name="oms_tning">Omsætning</string>
+    <string name="resultatopgoerelse">Resultatopgørelse</string>
+    <string name="omsaetning">Omsætning</string>
     <string name="vareforbrug">Vareforbrug</string>
     <string name="bruttofortjeneste">Bruttofortjeneste</string>
-    <string name="markedsf_ringsomkostninger">Markedsføringsomkostninger</string>
-    <string name="markedsf_ringsbidrag">Markedsføringsbidrag</string>
-    <string name="vrige_kapacitetsomkostninger">Øvrige kapacitetsomkostninger</string>
+    <string name="markedsfoeringsomkostninger">Markedsføringsomkostninger</string>
+    <string name="markedsfoeringsbidrag">Markedsføringsbidrag</string>
+    <string name="Oevrige_kapacitetsomkostninger">Øvrige kapacitetsomkostninger</string>
     <string name="indtjeningsbidrag">Indtjeningsbidrag</string>
     <string name="afskrivninger">Afskrivninger</string>
     <string name="textview">TextView</string>
     <string name="renteomkostninger">Renteomkostninger</string>
     <string name="resultat">Resultat</string>
     <string name="resultat_f_r_renter">Resultat Før Renter</string>
-    <string name="indtast_oms_tning">Indtast omsætning</string>
+
+
 </resources>

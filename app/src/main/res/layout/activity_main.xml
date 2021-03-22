@@ -7,304 +7,295 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editTextNumber3_Bruttofortjeneste"
-        android:layout_width="113dp"
-        android:layout_height="16dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
+        android:id="@+id/editTextNumber38"
+        android:layout_width="185dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:editable="true"
         android:ems="10"
+        android:gravity="center"
         android:inputType="number"
-        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber2_Vareforbrug"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumber4_Markedsføringsomkostninger"
-        android:layout_width="113dp"
-        android:layout_height="16dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
+        android:id="@+id/editTextNumber39"
+        android:layout_width="185dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="608dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:editable="true"
         android:ems="10"
+        android:gravity="center"
         android:inputType="number"
-        android:visibility="visible"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber3_Bruttofortjeneste" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumber5_Markedsføringsbidrag"
-        android:layout_width="113dp"
-        android:layout_height="16dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
+        android:id="@+id/editTextNumber37"
+        android:layout_width="185dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:editable="true"
         android:ems="10"
+        android:gravity="center"
         android:inputType="number"
-        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber4_Markedsføringsomkostninger" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumber6_OeVkap"
-        android:layout_width="113dp"
-        android:layout_height="16dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
+        android:id="@+id/editTextNumber34"
+        android:layout_width="185dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="296dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:editable="true"
         android:ems="10"
+        android:gravity="center"
         android:inputType="number"
-        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber5_Markedsføringsbidrag" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumber7_Indtjeningsbidrag"
-        android:layout_width="113dp"
-        android:layout_height="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
+        android:id="@+id/editTextNumber35"
+        android:layout_width="185dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:editable="true"
         android:ems="10"
+        android:gravity="center"
         android:inputType="number"
-        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber6_OeVkap" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumber8_Afskrivninger"
-        android:layout_width="113dp"
-        android:layout_height="16dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
+        android:id="@+id/editTextNumber36"
+        android:layout_width="185dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:editable="true"
         android:ems="10"
+        android:gravity="center"
         android:inputType="number"
-        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber7_Indtjeningsbidrag" />
-
-    <EditText
-        android:id="@+id/editTextNumber9_ResultatFørrenter"
-        android:layout_width="113dp"
-        android:layout_height="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
-        android:ems="10"
-        android:inputType="number"
-        android:visibility="visible"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber8_Afskrivninger"
-        tools:visibility="visible" />
-
-    <EditText
-        android:id="@+id/editTextNumber10_RenteOmkostninger"
-        android:layout_width="113dp"
-        android:layout_height="16dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
-        android:ems="10"
-        android:inputType="number"
-        android:visibility="visible"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber9_ResultatFørrenter"
-        tools:visibility="visible" />
-
-    <EditText
-        android:id="@+id/editTextNumber11_Resultat"
-        android:layout_width="113dp"
-        android:layout_height="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
-        android:ems="10"
-        android:inputType="number"
-        android:visibility="visible"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber10_RenteOmkostninger"
-        tools:visibility="visible" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView_Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="28dp"
-        android:text="@string/resultatopg_relse"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/resultatopgoerelse"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView_Omsætning"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="36dp"
-        android:text="@string/oms_tning"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_Title" />
-
-    <TextView
         android:id="@+id/textView_Vareforbrug"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginRight="118dp"
         android:text="@string/vareforbrug"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/editTextNumber31"
         app:layout_constraintTop_toBottomOf="@+id/textView_Omsætning" />
-
-    <TextView
-        android:id="@+id/textView_Bruttofortjeneste"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/bruttofortjeneste"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_Vareforbrug" />
 
     <TextView
         android:id="@+id/textView5_Markedsføringsomkostninger"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/markedsf_ringsomkostninger"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:text="@string/markedsfoeringsomkostninger"
+        app:layout_constraintEnd_toStartOf="@+id/editTextNumber32"
         app:layout_constraintTop_toBottomOf="@+id/textView_Bruttofortjeneste" />
 
     <TextView
         android:id="@+id/textView6_Markedsføringsbidrag"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/markedsf_ringsbidrag"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:text="@string/markedsfoeringsbidrag"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/editTextNumber34"
         app:layout_constraintTop_toBottomOf="@+id/textView5_Markedsføringsomkostninger" />
 
     <TextView
         android:id="@+id/textView7_Øvrigekapacitetsomkostninger"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/vrige_kapacitetsomkostninger"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="50dp"
+        android:text="@string/Oevrige_kapacitetsomkostninger"
+        app:layout_constraintEnd_toStartOf="@+id/editTextNumber35"
         app:layout_constraintTop_toBottomOf="@+id/textView6_Markedsføringsbidrag" />
+
+    <TextView
+        android:id="@+id/textView_Bruttofortjeneste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginRight="83dp"
+        android:text="@string/bruttofortjeneste"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTextNumber33"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Vareforbrug" />
+
+    <TextView
+        android:id="@+id/textView_Omsætning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginRight="121dp"
+        android:text="@string/omsaetning"
+        app:layout_constraintEnd_toStartOf="@+id/editTextNumber30"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Title" />
 
     <TextView
         android:id="@+id/textView8_Indtjeningsbidrag"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginRight="83dp"
         android:text="@string/indtjeningsbidrag"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/editTextNumber36"
         app:layout_constraintTop_toBottomOf="@+id/textView7_Øvrigekapacitetsomkostninger" />
-
-    <TextView
-        android:id="@+id/textView9_Afskrivninger"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/afskrivninger"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8_Indtjeningsbidrag" />
-
-    <TextView
-        android:id="@+id/textView10_ResultatFørRenter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/resultat_f_r_renter"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9_Afskrivninger" />
 
     <TextView
         android:id="@+id/textView11_Renteomkostninger"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
         android:text="@string/renteomkostninger"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/editTextNumber39"
         app:layout_constraintTop_toBottomOf="@+id/textView10_ResultatFørRenter" />
+
+    <TextView
+        android:id="@+id/textView9_Afskrivninger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginRight="110dp"
+        android:text="@string/afskrivninger"
+        app:layout_constraintEnd_toStartOf="@+id/editTextNumber37"
+        app:layout_constraintTop_toBottomOf="@+id/textView8_Indtjeningsbidrag" />
 
     <TextView
         android:id="@+id/textView12_Resultat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="345dp"
+        android:layout_marginRight="345dp"
         android:text="@string/resultat"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11_Renteomkostninger" />
 
-    <EditText
-        android:id="@+id/editTextNumber_Omsætning"
-        android:layout_width="113dp"
-        android:layout_height="16dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
-        android:ems="10"
-        android:hint="@string/indtast_oms_tning"
-        android:inputType="number"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/switch1_toggle"
-        tools:visibility="visible"
-        android:importantForAutofill="no" />
+    <TextView
+        android:id="@+id/textView10_ResultatFørRenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginRight="71dp"
+        android:text="@string/resultat_f_r_renter"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTextNumber38"
+        app:layout_constraintTop_toBottomOf="@+id/textView9_Afskrivninger" />
 
     <EditText
-        android:id="@+id/editTextNumber2_Vareforbrug"
-        android:layout_width="113dp"
-        android:layout_height="16dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
+        android:id="@+id/editTextNumber30"
+        android:layout_width="185dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
         android:editable="true"
         android:ems="10"
-        android:inputType="number"
-        android:visibility="visible"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber_Omsætning" />
-
-    <Switch
-        android:id="@+id/switch1_toggle"
-        android:layout_width="170dp"
-        android:layout_height="15dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="41dp"
-        android:layout_marginRight="41dp"
         android:gravity="center"
-        android:text="1000 kr eller kr"
-        android:textSize="10sp"
+        android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber32"
+        android:layout_width="185dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:editable="true"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber33"
+        android:layout_width="185dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:editable="true"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber31"
+        android:layout_width="185dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:editable="true"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
